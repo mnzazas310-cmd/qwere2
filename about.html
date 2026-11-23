@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+ <meta charset="UTF-8">
+ <title>test marfay</title>
+ <meta name="robots" content="noindex, nofollow">
+<style>
+  body{
+    background:wihte;
+    height:100vh;
+    font-family:Arial;
+    
+  }
+
+  .sinkas{
+    display:flex;
+    gap:30px  }
+  .sinka{
+    background:orange;
+    overflow:hidden;
+    border:1px  solid #eee;
+    border-radius:10px;
+   width:350px;
+    
+  }
+  .sinka img{
+    width:100%;
+    height:190px;
+    display:block;
+    ;
+  }
+  .info{
+    padding:10px;
+    overflow:hidden;
+  }
+  .name{
+    font-size:17px;
+    color:black;
+    overflow:hidden;
+    height:38px;
+  }
+  .pric{
+    height:28px;
+    overflow:hidden;
+    font-size:17;
+  }
+  .detal{
+    display:flex;
+    justify-content:space-between;
+    
+  }
+  .sinka button{
+    width:100%;
+    color:white;
+    background:#f1b500;
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .niger{
+    background:green;
+         height:150px;
+         width:300px;
+         padding:10px;
+         font-size:15px;
+         overflow:hidden;
+         display:flex;
+         border-radius:50px;
+         gap:30px;}
+  .bigger{
+    background:white;
+          height:30vh;
+          display:flex;
+          justify-items:center;}
+  .nigw{
+    background:orange;
+    hight:130px;
+    with:600px;
+    padding:20px;
+    margin:center;
+    margin:10px auto auto;
+    font-size:16px;
+    text-align:center;
+    display:flex;
+    border-radius:50px;}
+   .a{
+     border-radius:50px;
+     pading:10px;
+     margin:2px 2px 10px;  
+   }
+   .hide{
+     visibility:hidden;
+   }
+
+</style>
+</head>
+<body>
+
+<!--header-->
+  
+   <div class="bigger">
+
+<!--หน้าต่าง-->
+     
+     <div class="niger">                                                              
+       <ul>                         
+         <li><button class="a"><a href="index.html" class="">หน้าหลัก</a> </button></li>
+         <li><button class="a"><a href="about.html" class="">หน้าสินค้า</a> </button></li>
+         <li><button class="a"><a href="" class="">หน้าสินค้า</a> </button></li>
+         <li><button class="a"><a href="" class="">อธิบายเว็ปไซต์</a> </button></li>
+      </ul>
+    </div>
+
+<!--ชื่อ-->
+     
+  <div class="nigw">
+     <h1> this is my website market place so gay</h1>
+   </div>
+ </div>
+  
+  <div class="sinkas">
+
+       <!--สินค้า1โกตรกาก หูฟังทะลุบ้าน -->
+  
+    <div class="sinka">
+      <img id="picI" src="https://images.openai.com/static-rsc-4/yDMOTAXJouoP9mep0nPKZou7FTyQamPan4T88vmNWCmfAksIr0j5YtL7IkwwFbRxu-VTDn5KQviZ6ySEtTZYyJFqBg-9jWVJjmIQPn4-mOFlvJAV4SZV9KvN9horH4sEk7WF7sQiqmc5L7knrG9kbIwpWuH7NH3_X2v_hXjWuYxcRfLIhSy_uURK-l23LTUY?purpose=fullsize">
+      <div class="info">
+        <div class="name"> หูฟังทะลุจักรวาร</div>
+        <div class="pric"> $999</div>
+        <div class="detal">
+           <span>ของเก้</span>
+           <span>ใส่แล้วหูระเบิด <br><span class="hide"> 1</span>
+                <br><span class="hide">2</span>
+                </span>
+                  
+        </div>
+
+  <button onclick="if(document.getElementById('picI').src.includes('https://images.openai.com/static-rsc-4/yDMOTAXJouoP9mep0nPKZou7FTyQamPan4T88vmNWCmfAksIr0j5YtL7IkwwFbRxu-VTDn5KQviZ6ySEtTZYyJFqBg-9jWVJjmIQPn4-mOFlvJAV4SZV9KvN9horH4sEk7WF7sQiqmc5L7knrG9kbIwpWuH7NH3_X2v_hXjWuYxcRfLIhSy_uURK-l23LTUY?purpose=fullsize')){document.getElementById('picI').src='https://www.researchgate.net/publication/343627020/figure/fig1/AS:923927526244352@1597292896117/Meme-circulated-on-WhatsApp-Personal-communication-Moscow-2020.jpg';
+                              }else{document.getElementById('picI').src='https://images.openai.com/static-rsc-4/yDMOTAXJouoP9mep0nPKZou7FTyQamPan4T88vmNWCmfAksIr0j5YtL7IkwwFbRxu-VTDn5KQviZ6ySEtTZYyJFqBg-9jWVJjmIQPn4-mOFlvJAV4SZV9KvN9horH4sEk7WF7sQiqmc5L7knrG9kbIwpWuH7NH3_X2v_hXjWuYxcRfLIhSy_uURK-l23LTUY?purpose=fullsize';}">
+         เลือกดูสินค้า
+          </button> 
+
+
+        
+         <button onclick="location.href='gallery.html'">
+            ดูของเก้
+          </button>
+
+      </div>
+    </div>
+
+       <!--สินค้า2 กระเป๋าโดเกม้อน -->
+
+        <div class="sinka">
+         <img  id="picII" src="https://images.openai.com/static-rsc-4/AvukGBqg0JmvcllwFOtPg2TzwVaKjzHCpjxyL5iTBfhg4MPLs3TB_MKDI9qtz82-kzGeKtcGB76nrWQ52U6bzwcW47tZ0-8Fu1OgzOYeviCnN0koTZrnhXQVHYw_1Vgv5qYmym_Oz7_mYS3aR845wAMOCZkHmW9T35AJPkkR8N4VSFYRIJMFs4mSQZuv8pLA?purpose=fullsize">
+         <div class="info">
+          <div class="name"> กระเป๋าโดนเกม้อน</div>
+         <div class="pric"> $99999</div>
+         <div class="detal">
+            <span>ของแท้ -100%</span>
+            <span>ใส่สบายไม่ใส่สบายกว่า ไม่มีดีที่สุด <br><span class="hide">1</span>
+               <br><span class="hide">2</span>
+
+              </span>
+           
+        
+         </div>
+  
+               <button onclick="
+                         var p = document.getElementById('picII');
+
+                       if(p.src.includes('https://images.openai.com/static-rsc-4/AvukGBqg0JmvcllwFOtPg2TzwVaKjzHCpjxyL5iTBfhg4MPLs3TB_MKDI9qtz82-kzGeKtcGB76nrWQ52U6bzwcW47tZ0-8Fu1OgzOYeviCnN0koTZrnhXQVHYw_1Vgv5qYmym_Oz7_mYS3aR845wAMOCZkHmW9T35AJPkkR8N4VSFYRIJMFs4mSQZuv8pLA?purpose=fullsize')){
+                             p.src='https://www.researchgate.net/publication/343627020/figure/fig1/AS:923927526244352@1597292896117/Meme-circulated-on-WhatsApp-Personal-communication-Moscow-2020.jpg';
+                     }else{
+                          p.src='https://images.openai.com/static-rsc-4/AvukGBqg0JmvcllwFOtPg2TzwVaKjzHCpjxyL5iTBfhg4MPLs3TB_MKDI9qtz82-kzGeKtcGB76nrWQ52U6bzwcW47tZ0-8Fu1OgzOYeviCnN0koTZrnhXQVHYw_1Vgv5qYmym_Oz7_mYS3aR845wAMOCZkHmW9T35AJPkkR8N4VSFYRIJMFs4mSQZuv8pLA?purpose=fullsize';
+                                    }">
+                               เลือกดูสินค้า
+                </button>
+
+
+           
+           <button onclick="location.href='gallery.html'">
+            ดูของเก้
+          </button>
+      </div>
+    </div>
+
+       <!--สินค้า3 รองเท้าsonic(ger) -->
+    
+        <div class="sinka">
+      <img id="picIII" src="https://images.openai.com/static-rsc-4/KGzlUOBuMMXCFetDsl6PUsRNqkwc7vLs9_bgAqHFN6C5M9Hv3O2hDOEprPBd09ozJh6jyO_DjeBMwrQxSq9YUt-8YER-rtMd0tlbKfSELgnxoNIzZgAwfZD6dz1By0hPzcO8XoSQ4PSTOpBh4SXsDFTXgWgODkIrK1-xBXPzUatIeuzaqk7z77F8BZzHtPv4?purpose=fullsize">
+      <div class="info">
+        <div class="name">รองเท้าsonic(ger)</div>
+        <div class="pric"> $9967679</div>
+        <div class="detal">
+           <span>ของvipเฉพาะsonic
+           (ger)</span>
+          
+           <span>ใส่แล้ววิ่งได้
+             แบบsonic <br>
+           (ger) <br><span class="hide">1</span>
+</span>
+        
+        </div>
+
+
+          <button onclick="
+               var a = document.getElementById('picIII');
+               if(a.src.includes('https://images.openai.com/static-rsc-4/KGzlUOBuMMXCFetDsl6PUsRNqkwc7vLs9_bgAqHFN6C5M9Hv3O2hDOEprPBd09ozJh6jyO_DjeBMwrQxSq9YUt-8YER-rtMd0tlbKfSELgnxoNIzZgAwfZD6dz1By0hPzcO8XoSQ4PSTOpBh4SXsDFTXgWgODkIrK1-xBXPzUatIeuzaqk7z77F8BZzHtPv4?purpose=fullsize')){
+             a.src='https://www.researchgate.net/publication/343627020/figure/fig1/AS:923927526244352@1597292896117/Meme-circulated-on-WhatsApp-Personal-communication-Moscow-2020.jpg'
+                 }else{ a.src='https://images.openai.com/static-rsc-4/KGzlUOBuMMXCFetDsl6PUsRNqkwc7vLs9_bgAqHFN6C5M9Hv3O2hDOEprPBd09ozJh6jyO_DjeBMwrQxSq9YUt-8YER-rtMd0tlbKfSELgnxoNIzZgAwfZD6dz1By0hPzcO8XoSQ4PSTOpBh4SXsDFTXgWgODkIrK1-xBXPzUatIeuzaqk7z77F8BZzHtPv4?purpose=fullsize';}">
+              เลือกดูสินค้า
+           </button>
+
+               
+         <button onclick="location.href='gallery.html'">
+            ดูของเก้
+          </button>
+
+      </div>
+    </div>
+
+       <!--สินค้า4 กระบอกเก็บ.... สักสิทธิแห่ง... -->
+
+        <div class="sinka">
+      <img  id="pic" src="https://images.openai.com/static-rsc-4/SZDUggOEGqyiZ4IR75ytmPebEt9jtv5thFLXQJjmP5smM3648mv8pEa0fQK5OFAeUNC1c6ZUq2RU5NpxZT6eudmWaaUI7hFj_Hj-tQw6KqvM_4CUXuaZVMo92l2cyv59UiO3BOeK5FMVLo4qNGLQC5Ynk_USE1cRSO7NCS7tvB8?purpose=inline">
+      <div class="info">
+        <div class="name"> กระบอกน้ำ....</div>
+        <div class="pric"> $99967</div>
+        <div class="detal">
+           <span>ของเกือบแท้ทำจากเศษดิน</span>
+           <span>ดื่มน้ำ...
+             ได้สบายติดคอก็แค่ของแถม <br><span class="hide"> 1</span>
+              </span>
+          
+          
+        
+        </div>
+   
+         <button onclick="if(document.getElementById('pic').src.includes('https://images.openai.com/static-rsc-4/SZDUggOEGqyiZ4IR75ytmPebEt9jtv5thFLXQJjmP5smM3648mv8pEa0fQK5OFAeUNC1c6ZUq2RU5NpxZT6eudmWaaUI7hFj_Hj-tQw6KqvM_4CUXuaZVMo92l2cyv59UiO3BOeK5FMVLo4qNGLQC5Ynk_USE1cRSO7NCS7tvB8?purpose=inline')){document.getElementById('pic').src='https://www.researchgate.net/publication/343627020/figure/fig1/AS:923927526244352@1597292896117/Meme-circulated-on-WhatsApp-Personal-communication-Moscow-2020.jpg';
+                              }else{document.getElementById('pic').src='https://images.openai.com/static-rsc-4/SZDUggOEGqyiZ4IR75ytmPebEt9jtv5thFLXQJjmP5smM3648mv8pEa0fQK5OFAeUNC1c6ZUq2RU5NpxZT6eudmWaaUI7hFj_Hj-tQw6KqvM_4CUXuaZVMo92l2cyv59UiO3BOeK5FMVLo4qNGLQC5Ynk_USE1cRSO7NCS7tvB8?purpose=inline';}">
+         เลือกดูสินค้า
+          </button>        
+        <button onclick="location.href='gallery.html'">
+            ดูของเก้
+          </button>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
